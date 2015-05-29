@@ -1,0 +1,197 @@
+pre {
+  color: #8f9ebd;
+  background-color: #1c2331;
+  border-color: #262f41;
+}
+.slogan-wrapper {
+  margin-top: 0px;
+}
+.slogan {
+  padding: 45px 75px;
+  font-size: 120%;
+  color: #f3f3f2;
+}
+#host-detail {
+  margin-top: 1em;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.23);
+}
+g {
+  -webkit-transition: opacity 0.15s ease-out;
+  transition: opacity 0.15s ease-out;
+  opacity: 1.0;
+}
+g.faded {
+  opacity: 0;
+  pointer-events: none;
+}
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+.scope {
+  margin-bottom: 180px;
+}
+.scope h1 {
+  color: white;
+  font-size: 96px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0;
+}
+.scope h3 {
+  color: white;
+  font-size: 30px;
+  margin-top: 0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+.scope h5 {
+  font-weight: 700;
+  color: white;
+  text-align: left;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+.scope p {
+  text-align: left;
+  color: #ffffff;
+}
+/* intro Wrap */
+#intro {
+  padding-top: 2em;
+  border-top: #bdc3c7 solid 5px;
+  padding-bottom: 2em;
+}
+#featureswrap {
+  color: white;
+  display: block;
+  background: linear-gradient(30deg, #1e1e2c 0%, #3c3c5a 100%);
+  padding-top: 2em;
+}
+#featureswrap h1,
+#featureswrap h3,
+#featureswrap h4,
+#featureswrap h5 {
+  color: white;
+}
+#featureswrap .row {
+  margin: 4em 0;
+}
+#featureswrap img {
+  margin-top: 20px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.23);
+}
+#featureswrap .ac a {
+  font-size: 20px;
+}
+/* Showcase Wrap */
+#showcasewrap {
+  display: block;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKklEQVQIW2OU98z7zwAF//8zPGeECYA5jAySYAEYB6SQUc4j7xlIBqYNAIfdED63kdz3AAAAAElFTkSuQmCC) repeat;
+}
+#showcasewrap .carousel-indicators {
+  bottom: -50px;
+}
+#showcasewrap .carousel-inner {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+#showcasewrap h1 {
+  color: white;
+  padding: 1em 0;
+}
+#footerwrap {
+  background-color: #13131d;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  text-align: left;
+}
+#footerwrap .btn {
+  font-weight: bold;
+  font-size: 125%;
+}
+#footerwrap h3 {
+  font-size: 28px;
+  color: white;
+}
+#footerwrap p {
+  color: white;
+  font-size: 90%;
+}
+/* Copyright Wrap */
+#c {
+  background: #222222;
+  padding-top: 15px;
+}
+#c p {
+  color: #ffffff;
+}
+/* Topology */
+#graph {
+  position: relative;
+}
+.bottom {
+  margin-top: 700px;
+}
+#graph svg {
+  height: 1050px;
+  position: absolute;
+  top: -260px;
+  left: 0;
+  z-index: 100;
+}
+text {
+  font: 10px sans-serif;
+  pointer-events: none;
+  fill: #81817f;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+path.thin-link {
+  fill: none;
+  stroke: #81817f;
+  stroke-width: 1px;
+  stroke-opacity: 0.2;
+  pointer-events: none;
+}
+path.shadow-link {
+  fill: none;
+  stroke: #6f83aa;
+  stroke-width: 9px;
+  stroke-opacity: 0;
+  pointer-events: none;
+}
+g.active path.shadow-link,
+g.highlight path.thin-link {
+  stroke-opacity: 0.8;
+}
+g.active path.thin-link,
+g.connected path.thin-link {
+  stroke: #425271;
+  stroke-opacity: 0.8;
+}
+g.host circle.host-shadow {
+  fill: #f3f3f2;
+  stroke: white;
+  stroke-width: 4px;
+  fill-opacity: 0.8;
+}
+g.host circle.host {
+  fill: #81817f;
+}
+g.host text.hostname {
+  fill: #9a9a98;
+  font-size: 16px;
+}
+g.host.active circle.host {
+  fill: #425271;
+}
+g.host.active circle.host-shadow {
+  fill: #bfc8d9;
+}
+g.host#host-theinternet text {
+  fill: #9a9a98;
+  font-size: 16px;
+}
+g.host#host-theinternet .internet-symbol {
+  fill: #81817f;
+}
+g.host#host-theinternet.active text.internet-symbol,
+g.host#host-theinternet.connected text.internet-symbol {
+  fill: #425271;
+}
